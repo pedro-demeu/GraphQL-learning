@@ -1,7 +1,9 @@
 const userResolvers = {
     Query: {
         users: (root, args,{ dataSources }) => dataSources.
-        usersAPI.getUsers()
+        usersAPI.getUsers(),
+        user: (root, { id }, { dataSources }) => dataSources.
+        usersAPI.getUsersById(id)
     }
 
 }
