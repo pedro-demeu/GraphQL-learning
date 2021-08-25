@@ -41,6 +41,14 @@
       "ativo": true,
       "email": "m@m.com",
       "role": 2
+    },
+    {
+      "nome": "Juca jr",
+      "ativo": true,
+      "email": "juca@gmail.com",
+      "role": 1,
+      "createdAt": "2021-08-22T00:00:00.000Z",
+      "id": 7
     }
   ],
   "roles": [
